@@ -19,4 +19,6 @@ class Mutation(
         ObjectType):
     pass
 
+
 schema = Schema(query=Query, mutation=Mutation)
+

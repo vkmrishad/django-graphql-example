@@ -3,7 +3,9 @@ from graphene.relay import ClientIDMutation
 
 from .models import Post, Comment
 from .types import PostType, CommentType
-from .inputs import CreatePostInput, UpdatePostInput, CreateCommentInput, UpdateCommentInput
+from .inputs import (
+    CreatePostInput, UpdatePostInput, CreateCommentInput, UpdateCommentInput
+)
 
 
 class CreatePost(ClientIDMutation):
